@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="Preferences Informations"
+        android:key="pref_info">
+
+        <CheckBoxPreference
+            android:key="cb_show_tost"
+            android:title="@string/pref_title_tost"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="cb_show_notification"
+            android:title="@string/pref_title_notification"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
