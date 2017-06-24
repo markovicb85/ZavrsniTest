@@ -8,10 +8,11 @@ import com.j256.ormlite.table.DatabaseTable;
 public class Stan {
 
 
-    public static final String TABLE_NAME_USER = "STAN";
+    public static final String TABLE_NAME_USER = "stan";
 
     public static final String FIELD_NAME_ID     = "id";
-    public static final String FIELD_NAME_STAN = "stan";
+    public static final String FIELD_NAME_STAN = "stanovi";
+    public static final String FIELD_NAME_NEKRETNINE = "nekretnine";
 
     @DatabaseField(columnName = FIELD_NAME_ID, generatedId = true)
     private int mID;
@@ -19,7 +20,7 @@ public class Stan {
     @DatabaseField(columnName = FIELD_NAME_STAN)
     private String mStan;
 
-    @DatabaseField(columnName = FIELD_NAME_STAN, foreign = true, foreignAutoRefresh = true)
+    @DatabaseField(columnName = FIELD_NAME_NEKRETNINE, foreign = true, foreignAutoRefresh = true)
     private Nekretnine nekretnine;
 
     public Stan(){}

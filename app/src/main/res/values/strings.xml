@@ -20,4 +20,15 @@
     <string name="movie_name">Movie name</string>
     <string name="movie_genre">Genre</string>
     <string name="movie_year">Year</string>
+    <string name="nekretnine">NEKRETNINE</string>
+    <string name="naziv">Naziv</string>
+    <string name="opis">Opis</string>
+    <string name="slika">Slika</string>
+    <string name="adresa">Adresa</string>
+    <string name="br_tel">Br. tel.</string>
+    <string name="kvadratura">Kvadratura</string>
+    <string name="br_soba">Br. soba</string>
+    <string name="cena">Cena</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
 </resources>
